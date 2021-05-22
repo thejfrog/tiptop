@@ -48,7 +48,7 @@
     <div id="card2" class="card">
       <div class="card-image">
         <figure class="image is-4by3">
-          <img id="synthmtn" src="/Synth_Mtn.svg">
+          <img id="synthmtn" src="/Synth_Mtn.png">
         </figure>
       </div>
       <header class="card-header-title">

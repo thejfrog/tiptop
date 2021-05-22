@@ -11,7 +11,7 @@
           v-scroll-to="'#hero'"
           >
           <img
-          src="/Tip-Top_logo.svg"
+          src="/Tip-Top_logo.png"
           alt="Tip-Top"
           id="logo"
           >
@@ -41,7 +41,7 @@
     >
     <img
     id="twitterim"
-    src="/twitter_icon.svg"
+    src="/twitter_icon.png"
     alt="Twitter.com"
     >
     Twitter
