@@ -48,7 +48,7 @@
     <div id="card2" class="card">
       <div class="card-image">
         <figure class="image is-4by3">
-          <img id="synthmtn" src="/Synth_Mtn.png">
+          <img id="synthmtn" src="/Synth_Mtn.jpg">
         </figure>
       </div>
       <header class="card-header-title">
@@ -106,10 +106,10 @@ export default {
   data () {
     return {
       carousels: [
-        { text: 'NFT 1', image: '/Synth_Mtn_footer.png' },
-        { text: 'NFT 2', image: '/Synth_Mtn_footer.png' },
-        { text: 'NFT 3', image: '/Synth_Mtn_footer.png' },
-        { text: 'NFT 4', image: '/Synth_Mtn_footer.png' }
+        { text: 'NFT 1', image: '/Synth_Mtn_footer.jpg' },
+        { text: 'NFT 2', image: '/Synth_Mtn_footer.jpg' },
+        { text: 'NFT 3', image: '/Synth_Mtn_footer.jpg' },
+        { text: 'NFT 4', image: '/Synth_Mtn_footer.jpg' }
       ]
     }
   }

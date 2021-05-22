@@ -60,7 +60,7 @@ a.navbar-item:hover {
 section.hero {
   width: 100vw;
   height: 25vh;
-  background-image: url(/Girl_ad_no_subtext.png);
+  background-image: url(/Girl_ad_no_subtext.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -211,7 +211,7 @@ section.footer {
   color: #00FFFF;
   font-size: 25pt;
   text-shadow: 2px 1.5px #FFCC00;
-  background-image: url(/Synth_Mtn_footer.png);
+  background-image: url(/Synth_Mtn_footer.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left;
