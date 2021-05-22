@@ -217,6 +217,13 @@ section.footer {
   background-position: left;
 }
 
+#wplink {
+  font-family: Logo-Font;
+  color: #00FFFF;
+  font-size: 25pt;
+  text-shadow: 2px 1.5px #FFCC00;
+}
+
 #wplink:visited {
   font-family: Logo-Font;
   color: #00FFFF;
