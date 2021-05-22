@@ -1,0 +1,230 @@
+@font-face {
+  font-family: 'Logo-Font';
+  src: url('@/assets/fonts/Logo-Font.otf') format('opentype');
+}
+
+html {
+  background-color: #76144C;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav.navbar {
+  filter: contrast(0.95);
+  background-color: #371740;
+  opacity: 0.87;
+  justify-content: center;
+}
+
+#logo {
+  padding-left: 15px;
+  margin-left: 10px;
+}
+
+a.navbar-item {
+  filter: grayscale(0.9);
+  filter: brightness(0.7);
+  font-family: Logo-Font;
+  color: #FBDDC7;
+  font-size: 15pt;
+  font-weight: bolder;
+  text-shadow: 1.2px 1px #8058BD;
+}
+
+a.navbar-item:visited {
+  filter: grayscale(0.9);
+  filter: brightness(0.7);
+  font-family: Logo-Font;
+  color: #FBDDC7;
+  font-size: 15pt;
+  font-weight: bolder;
+  text-shadow: 1.2px 1px #8058BD;
+}
+
+a.navbar-item:hover {
+  filter: grayscale(0);
+  filter: opacity(1);
+  color: #00FFFF;
+  font-size: 15pt;
+  text-shadow: 1.5px 1.5px #FF0033;
+}
+
+#twitterim {
+  padding-right: 2px;
+}
+
+#header {
+  margin: 0px;
+}
+
+section.hero {
+  width: 100vw;
+  height: 25vh;
+  background-image: url(/Girl_ad_no_subtext.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+}
+
+#level1 {
+  border-top: 3px;
+  border-top-color: #431542;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-style: inset;
+  background-color: #76144C;
+  text-shadow: 1.5px 1px black;
+  padding-bottom: 25px;
+}
+
+#level2 {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top: 5px;
+  border-top-color: #251A3D;
+  border-bottom: 10px;
+  border-bottom-color: #251A3D;
+  border-left: 0px;
+  border-right: 0px;
+  border-style: inset;
+  background-color: #27193D;
+  margin: 0px;
+}
+
+#text1 {
+  padding-left: 45px;
+  font-family: Logo-Font;
+  color: #FFCC00;
+  font-size: 25pt;
+  font-weight: bolder;
+  padding-top: 5px;
+}
+
+#text2 {
+  padding-left: 55px;
+  font-family: Logo-Font;
+  color: #FBDDC7;
+  font-size: 30pt;
+  font-weight: bolder;
+  text-shadow: 1.5px 1px black;
+  padding-top: 5px;
+}
+
+#FAQ {
+  margin: 0px;
+  background-color: #27193D;
+}
+
+#synthmtn {
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+header.card-header-title {
+  font-family: Logo-Font;
+  font-size: 30pt;
+  font-weight: bolder;
+  text-shadow: 1.5px 1px black;
+  background-color: #27193D;
+}
+p.card-header-title {
+  color: #FFCC00;
+  text-shadow: 1.5px 1px black;
+}
+
+#card1 {
+  background-color: #27193D;
+  padding-top: 100px;
+}
+
+#card2 {
+  background-color: #27193D;
+}
+
+#level3 {
+  background-color: #27193D;
+  margin: 0px;
+}
+
+#card3 {
+  background-color: #27193D;
+  padding-bottom: 95px;
+}
+
+#text3 {
+  border-style: inset;
+  border-color: #401641;
+  border-width: 15px;
+  padding: 14px;
+  font-family: Logo-Font;
+  color: #FBDDC7;
+  text-shadow: 1px 1px black;
+  font-size: 15pt;
+  background-color: #7B144D;
+}
+
+#text4 {
+  border-style: inset;
+  border-color: #401641;
+  border-width: 15px;
+  padding: 14px;
+  font-family: Logo-Font;
+  color: #FBDDC7;
+  text-shadow: 1px 1px black;
+  font-size: 15pt;
+  background-color: #7B144D;
+}
+
+#text5 {
+  border-style: inset;
+  border-color: #401641;
+  border-width: 15px;
+  padding: 14px;
+  font-family: Logo-Font;
+  color: #FBDDC7;
+  text-shadow: 1px 1px black;
+  font-size: 15pt;
+  background-color: #7B144D;
+}
+
+#f1 {
+}
+
+#f2 {
+}
+
+#f3 {
+}
+
+section.footer {
+  padding-bottom: 35px;
+  border-top: 15px;
+  border-top-color: #251A3D;
+  border-bottom: 0px;
+  border-style: inset;
+  border-color: #26193C;
+  font-family: Logo-Font;
+  color: #00FFFF;
+  font-size: 25pt;
+  text-shadow: 2px 1.5px #FFCC00;
+  background-image: url(/Synth_Mtn_footer.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+#wplink:visited {
+  font-family: Logo-Font;
+  color: #00FFFF;
+  font-size: 25pt;
+  text-shadow: 2px 1.5px #FFCC00;
+}
+
+div.image {
+  max-height: 30vh;
+  max-width: 30vw;
+}
