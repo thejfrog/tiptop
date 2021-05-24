@@ -1,7 +1,7 @@
 <template>
   <section>
         <nav
-        class="navbar is-fixed-top is-transparent"
+        class="navbar is-fixed-top"
         >
         <div class="navbar-brand">
           <a
@@ -17,7 +17,7 @@
       </div>
       <div class="navbar-item">
         <a
-        v-scroll-to="'#text2'"
+        v-scroll-to="'#level2'"
         class="navbar-item"
         >
         FAQ
