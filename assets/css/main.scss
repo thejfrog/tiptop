@@ -1,3 +1,25 @@
+@import 'bulma/sass/utilities/mixins';
+
+@include mobile {
+  section.hero {
+    background-image: url(/Girl_ad_no_subtext.jpg);
+    background-size: 25vh 100vw auto;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-attachment: fixed;
+  }
+}
+
+@include desktop {
+  section.hero {
+    background-image: url(/Girl_ad_no_subtext.jpg);
+    background-size: 100vw auto;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+  }
+}
+
 @font-face {
   font-family: 'Logo-Font';
   src: url('@/assets/fonts/Logo-Font.otf') format('opentype');
@@ -54,16 +76,6 @@ a.navbar-item:hover {
 }
 
 #header {
-  margin: 0px;
-}
-
-section.hero {
-  background-image: url(/Girl_ad_no_subtext.jpg);
-  background-size: 100vw auto;
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-attachment: fixed;
-  padding: 0px;
   margin: 0px;
 }
 
