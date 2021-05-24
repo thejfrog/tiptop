@@ -8,6 +8,15 @@
     background-position: bottom center;
     background-attachment: scroll;
   }
+
+  nav.navbar {
+    filter: contrast(0.95);
+    background-color: #371740;
+    opacity: 0.95;
+    justify-content: center;
+    min-height: unset;
+  }
+
   a.navbar-item {
     filter: grayscale(0.4);
     filter: brightness(0.6);
@@ -45,6 +54,14 @@
     background-position: top center;
     background-attachment: fixed;
   }
+
+  nav.navbar {
+    filter: contrast(0.95);
+    background-color: #371740;
+    opacity: 0.95;
+    justify-content: center;
+  }
+
   a.navbar-item {
     filter: grayscale(0.4);
     filter: brightness(0.6);
@@ -83,13 +100,6 @@ html {
   background-color: #76144C;
   margin: 0px;
   padding: 0px;
-}
-
-nav.navbar {
-  filter: contrast(0.95);
-  background-color: #371740;
-  opacity: 0.95;
-  justify-content: center;
 }
 
 #logo {
