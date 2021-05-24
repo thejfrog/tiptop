@@ -63,6 +63,8 @@ section.hero {
   background-repeat: no-repeat;
   background-position: top center;
   background-attachment: fixed;
+  padding: 0px;
+  margin: 0px;
 }
 
 #level1 {
