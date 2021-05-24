@@ -34,7 +34,7 @@ html {
 nav.navbar {
   filter: contrast(0.95);
   background-color: #371740;
-  opacity: 0.87;
+  opacity: 0.95;
   justify-content: center;
 }
 
@@ -44,8 +44,8 @@ nav.navbar {
 }
 
 a.navbar-item {
-  filter: grayscale(0.9);
-  filter: brightness(0.7);
+  filter: grayscale(0.4);
+  filter: brightness(0.6);
   font-family: Logo-Font;
   color: #FBDDC7;
   font-size: 15pt;
@@ -246,4 +246,5 @@ section.footer {
 div.image {
   max-height: 30vh;
   max-width: 30vw;
+  justify-content: center;
 }

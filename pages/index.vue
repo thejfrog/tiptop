@@ -1,5 +1,9 @@
 <template>
   <section id="header">
+    <section class="hero is-fullheight-with-navbar" id="hero">
+      <div class="hero-head">
+      </div>
+      </section>
     <nav id= "level1" class="level">
       <div id="text1" class="level-left">
         Tip-Top is a web3-native social-media-based NFT creation

@@ -1,9 +1,7 @@
 <template>
   <section>
-    <section class="hero is-fullheight-with-navbar" id="hero">
-      <div class="hero-head">
         <nav
-        class="navbar is-fixed-top is-transparent is-spaced"
+        class="navbar is-fixed-top is-transparent"
         >
         <div class="navbar-brand">
           <a
@@ -50,8 +48,6 @@
 <div class="navbar-burger">
 </div>
 </nav>
-</div>
-</section>
 <nuxt />
 </section>
 </template>
