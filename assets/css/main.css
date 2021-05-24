@@ -61,7 +61,7 @@ section.hero {
   width: 100vw;
   height: 25vh;
   background-image: url(/Girl_ad_no_subtext.jpg);
-  background-size: cover;
+  background-size: 100vw auto;
   background-repeat: no-repeat;
   background-position: top;
   background-attachment: fixed;
