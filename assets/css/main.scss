@@ -8,6 +8,33 @@
     background-position: bottom center;
     background-attachment: scroll;
   }
+  a.navbar-item {
+    filter: grayscale(0.4);
+    filter: brightness(0.6);
+    font-family: Logo-Font;
+    color: #FBDDC7;
+    font-size: 10pt;
+    font-weight: bolder;
+    text-shadow: 1.2px 1px #8058BD;
+  }
+
+  a.navbar-item:visited {
+    filter: grayscale(0.9);
+    filter: brightness(0.7);
+    font-family: Logo-Font;
+    color: #FBDDC7;
+    font-size: 10pt;
+    font-weight: bolder;
+    text-shadow: 1.2px 1px #8058BD;
+  }
+
+  a.navbar-item:hover {
+    filter: grayscale(0);
+    filter: opacity(1);
+    color: #00FFFF;
+    font-size: 10pt;
+    text-shadow: 1.5px 1.5px #FF0033;
+  }
 }
 
 @include desktop {
@@ -17,6 +44,33 @@
     background-repeat: no-repeat;
     background-position: top center;
     background-attachment: fixed;
+  }
+  a.navbar-item {
+    filter: grayscale(0.4);
+    filter: brightness(0.6);
+    font-family: Logo-Font;
+    color: #FBDDC7;
+    font-size: 14pt;
+    font-weight: bolder;
+    text-shadow: 1.2px 1px #8058BD;
+  }
+
+  a.navbar-item:visited {
+    filter: grayscale(0.9);
+    filter: brightness(0.7);
+    font-family: Logo-Font;
+    color: #FBDDC7;
+    font-size: 14pt;
+    font-weight: bolder;
+    text-shadow: 1.2px 1px #8058BD;
+  }
+
+  a.navbar-item:hover {
+    filter: grayscale(0);
+    filter: opacity(1);
+    color: #00FFFF;
+    font-size: 14pt;
+    text-shadow: 1.5px 1.5px #FF0033;
   }
 }
 
@@ -48,7 +102,7 @@ a.navbar-item {
   filter: brightness(0.6);
   font-family: Logo-Font;
   color: #FBDDC7;
-  font-size: 13pt;
+  font-size: 14pt;
   font-weight: bolder;
   text-shadow: 1.2px 1px #8058BD;
 }
@@ -58,7 +112,7 @@ a.navbar-item:visited {
   filter: brightness(0.7);
   font-family: Logo-Font;
   color: #FBDDC7;
-  font-size: 13pt;
+  font-size: 14pt;
   font-weight: bolder;
   text-shadow: 1.2px 1px #8058BD;
 }
@@ -67,7 +121,7 @@ a.navbar-item:hover {
   filter: grayscale(0);
   filter: opacity(1);
   color: #00FFFF;
-  font-size: 13pt;
+  font-size: 14pt;
   text-shadow: 1.5px 1.5px #FF0033;
 }
 
