@@ -3,10 +3,10 @@
 @include mobile {
   section.hero {
     background-image: url(/Girl_ad_no_subtext.jpg);
-    background-size: 25vh 100vw auto;
+    background-size: 100vw auto;
     background-repeat: no-repeat;
-    background-position: bottom center;
-    background-attachment: fixed;
+    background-position: center center;
+    background-attachment: scroll;
   }
 }
 
