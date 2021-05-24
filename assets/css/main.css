@@ -58,8 +58,6 @@ a.navbar-item:hover {
 }
 
 section.hero {
-  width: 100vw;
-  height: 100vh;
   background-image: url(/Girl_ad_no_subtext.jpg);
   background-size: 100vw auto;
   background-repeat: no-repeat;
