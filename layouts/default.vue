@@ -1,6 +1,6 @@
 <template>
   <section>
-    <section class="hero is-fullheight-with-navbar" id="hero">
+    <section class="hero is-fullheight" id="hero">
       <div class="hero-head">
         <nav
         class="navbar is-fixed-top is-transparent is-spaced"
