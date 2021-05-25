@@ -5,7 +5,7 @@
     background-image: url(/Girl_ad_no_subtext.jpg);
     background-size: 100vw auto;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: bottom center;
     background-attachment: scroll;
   }
 
@@ -53,6 +53,8 @@
 
 @include desktop {
   section.hero {
+    min-height: unset;
+    max-height: 80vh;
     background-image: url(/Girl_ad_no_subtext.jpg);
     background-size: 100vw auto;
     background-repeat: no-repeat;
