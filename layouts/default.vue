@@ -17,7 +17,7 @@
       </div>
       <div class="navbar-item">
         <a
-        v-scroll-to="'#level2'"
+        v-scroll-to="'#text1'"
         class="navbar-item"
         >
         FAQ

@@ -15,7 +15,7 @@
     opacity: 0.95;
     justify-content: center;
     min-height: unset;
-    max-height: 30vh;
+    max-height: 45vh;
   }
 
   a.navbar-item {
@@ -44,6 +44,10 @@
     color: #00FFFF;
     font-size: 8pt;
     text-shadow: 1.5px 1.5px #FF0033;
+  }
+  div.image {
+    max-width: 100vw;
+    justify-content: center;
   }
 }
 
@@ -59,12 +63,12 @@
   nav.navbar {
     filter: contrast(0.95);
     background-color: #371740;
-    opacity: 0.95;
+    opacity: 0.87;
     justify-content: center;
   }
 
   a.navbar-item {
-    filter: grayscale(0.4);
+    filter: grayscale(0.7);
     filter: brightness(0.6);
     font-family: Logo-Font;
     color: #FBDDC7;
@@ -89,6 +93,11 @@
     color: #00FFFF;
     font-size: 14pt;
     text-shadow: 1.5px 1.5px #FF0033;
+  }
+  div.image {
+    max-height: 30vh;
+    max-width: 30vw;
+    justify-content: center;
   }
 }
 
@@ -306,10 +315,4 @@ section.footer {
   color: #00FFFF;
   font-size: 25pt;
   text-shadow: 2px 1.5px #FFCC00;
-}
-
-div.image {
-  max-height: 30vh;
-  max-width: 30vw;
-  justify-content: center;
 }
